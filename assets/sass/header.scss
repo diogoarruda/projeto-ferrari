@@ -70,8 +70,8 @@
                 margin: 0;
                 padding: 0;
                 width: 100%;
-                margin-top: 169px;
                 flex-direction: column;
+                margin-top: 169px;
                 max-height: calc(100vh - 250px);
                 overflow-y: auto;
                 li {
@@ -112,7 +112,7 @@
                     flex-direction: column;
                     flex: 1;
                 }
-                a{
+                a {
                     color: var(--dark-0);
                     text-decoration: none;
                     font-size: 16px;
@@ -139,6 +139,7 @@
         position: absolute;
         right: 0;
     }
+
 }
 .open-menu {
     overflow: hidden;

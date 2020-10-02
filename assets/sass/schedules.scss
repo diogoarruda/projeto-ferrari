@@ -30,7 +30,7 @@
                     }
                 }
                 li + li {
-                    border-top: var(--gray-10 5px solid);
+                    border-top: var(--gray-10) 1px solid;
                     margin-top: 10px;
                     padding-top: 10px;
                 }
@@ -40,7 +40,7 @@
     footer.fixed {
         justify-content: center;
         a {
-            padding-top: 0 var(--space);
+            padding: 0 var(--space);
         }
     }
 }

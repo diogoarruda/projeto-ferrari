@@ -23,6 +23,7 @@
         form {
             margin-top: 170px;
             width: 100%;
+            max-width: unset;
             &.hide {
                 display: none;
             }
@@ -39,11 +40,11 @@
                 }
             }
             h1 {
-                text-align: center;
-                color: var(--green);
-                font-size: 28px;
-                font-weight: 600;
-                margin: var(--space);
+               text-align: center;
+               color: var(--green) ;
+               font-size: 28px;
+               font-weight: 600;
+               margin: var(--space) auto;
             }
             hr {
                 width: 68px;
@@ -100,7 +101,6 @@
                 border: var(--gray-8) 1px solid;
                 border-radius: calc(2 * var(--border-radius));
                 width: 100%;
-                max-width: unset;
                 padding: 50px;
                 padding-top: 100px;
             }
